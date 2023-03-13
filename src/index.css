@@ -1,13 +1,31 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #e7e3e0 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.spinner {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.landing {
+  background: white url("C:\Users\sk22239\Downloads\foodimage.avif") no-repeat scroll center;
+  height: 100vh;
+  background-size: cover;
+  color: lightgray;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.bi-person {
+  font-size: 100px;
+}
+
+.bg-teal {
+  background-color: darkslategray !important;
 }
